@@ -20,7 +20,6 @@ $(function () {
         },
         dataType: 'jsonp',
         success: function (data) {
-            console.log(data);
             var twitterHolder = ('#twitter-holder');
             $.each(data, function (i, item) {
                 $('<div></div>')
